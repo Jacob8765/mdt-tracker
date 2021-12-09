@@ -7,23 +7,72 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		162D3DDF240DE15500BEFB55 /* ScheduleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162D3DDE240DE15500BEFB55 /* ScheduleController.swift */; };
+		162D3DE124101F1400BEFB55 /* ScheduleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162D3DE024101F1400BEFB55 /* ScheduleManager.swift */; };
 		1668333523E4F94700A901FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1668333423E4F94700A901FA /* AppDelegate.swift */; };
 		1668333723E4F94700A901FA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1668333623E4F94700A901FA /* SceneDelegate.swift */; };
-		1668333923E4F94700A901FA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1668333823E4F94700A901FA /* ViewController.swift */; };
+		1668333923E4F94700A901FA /* FavoritesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1668333823E4F94700A901FA /* FavoritesController.swift */; };
 		1668333C23E4F94700A901FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1668333A23E4F94700A901FA /* Main.storyboard */; };
 		1668333E23E4F94800A901FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1668333D23E4F94800A901FA /* Assets.xcassets */; };
 		1668334123E4F94800A901FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1668333F23E4F94800A901FA /* LaunchScreen.storyboard */; };
+		1668334923E5C61700A901FA /* BusesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1668334823E5C61700A901FA /* BusesController.swift */; };
+		1668334B23E5C63E00A901FA /* CardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1668334A23E5C63E00A901FA /* CardController.swift */; };
+		1668335323E5EDB100A901FA /* Bus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1668335223E5EDB100A901FA /* Bus.swift */; };
+		1668335923E796E600A901FA /* BusesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1668335823E796E600A901FA /* BusesManager.swift */; };
+		1668335B23E8DFEE00A901FA /* SelectStopController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1668335A23E8DFEE00A901FA /* SelectStopController.swift */; };
+		1668335D23E9240300A901FA /* BusStopsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1668335C23E9240300A901FA /* BusStopsManager.swift */; };
+		1668335F23E9261100A901FA /* BusStop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1668335E23E9261100A901FA /* BusStop.swift */; };
+		1668336123E9B05300A901FA /* BusDetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1668336023E9B05300A901FA /* BusDetailsController.swift */; };
+		1668336323EC6BE500A901FA /* BusDetailsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1668336223EC6BE500A901FA /* BusDetailsManager.swift */; };
+		1668336523ECA71C00A901FA /* Coords.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1668336423ECA71C00A901FA /* Coords.swift */; };
+		1668336723ECE39500A901FA /* BusDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1668336623ECE39500A901FA /* BusDetailsTableViewCell.swift */; };
+		1668336923EF3CAE00A901FA /* Favorite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1668336823EF3CAE00A901FA /* Favorite.swift */; };
+		1668336B23EF450500A901FA /* FavoritesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1668336A23EF450500A901FA /* FavoritesManager.swift */; };
+		1668336D23F0EDC400A901FA /* BusMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1668336C23F0EDC400A901FA /* BusMap.swift */; };
+		1668336F23F0F29A00A901FA /* BusRoutesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1668336E23F0F29A00A901FA /* BusRoutesController.swift */; };
+		1668337323F5C97300A901FA /* CardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1668337223F5C97300A901FA /* CardTableViewCell.swift */; };
+		1668337523F5CB1800A901FA /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1668337423F5CB1800A901FA /* Card.swift */; };
+		16F5155524D836A800080D30 /* BusesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F5155324D836A700080D30 /* BusesTableViewCell.swift */; };
+		16F5155624D836A800080D30 /* BusesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16F5155424D836A700080D30 /* BusesTableViewCell.xib */; };
+		16F980F023F8E0EB0035B84C /* CardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F980EF23F8E0EB0035B84C /* CardManager.swift */; };
+		16F980F223FA2D210035B84C /* AddCardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F980F123FA2D210035B84C /* AddCardController.swift */; };
+		16F980F423FB0FF70035B84C /* CardDetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F980F323FB0FF70035B84C /* CardDetailsController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1668333123E4F94700A901FA /* mdt-tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mdt-tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		162D3DDE240DE15500BEFB55 /* ScheduleController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleController.swift; sourceTree = "<group>"; };
+		162D3DE024101F1400BEFB55 /* ScheduleManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleManager.swift; sourceTree = "<group>"; };
+		166282DC27627F1900FBCABB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1668333123E4F94700A901FA /* MDT Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MDT Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1668333423E4F94700A901FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1668333623E4F94700A901FA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1668333823E4F94700A901FA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1668333823E4F94700A901FA /* FavoritesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesController.swift; sourceTree = "<group>"; };
 		1668333B23E4F94700A901FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1668333D23E4F94800A901FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1668334023E4F94800A901FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1668334223E4F94800A901FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1668334823E5C61700A901FA /* BusesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusesController.swift; sourceTree = "<group>"; };
+		1668334A23E5C63E00A901FA /* CardController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardController.swift; sourceTree = "<group>"; };
+		1668335223E5EDB100A901FA /* Bus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bus.swift; sourceTree = "<group>"; };
+		1668335823E796E600A901FA /* BusesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusesManager.swift; sourceTree = "<group>"; };
+		1668335A23E8DFEE00A901FA /* SelectStopController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectStopController.swift; sourceTree = "<group>"; };
+		1668335C23E9240300A901FA /* BusStopsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusStopsManager.swift; sourceTree = "<group>"; };
+		1668335E23E9261100A901FA /* BusStop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusStop.swift; sourceTree = "<group>"; };
+		1668336023E9B05300A901FA /* BusDetailsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusDetailsController.swift; sourceTree = "<group>"; };
+		1668336223EC6BE500A901FA /* BusDetailsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusDetailsManager.swift; sourceTree = "<group>"; };
+		1668336423ECA71C00A901FA /* Coords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coords.swift; sourceTree = "<group>"; };
+		1668336623ECE39500A901FA /* BusDetailsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusDetailsTableViewCell.swift; sourceTree = "<group>"; };
+		1668336823EF3CAE00A901FA /* Favorite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorite.swift; sourceTree = "<group>"; };
+		1668336A23EF450500A901FA /* FavoritesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesManager.swift; sourceTree = "<group>"; };
+		1668336C23F0EDC400A901FA /* BusMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusMap.swift; sourceTree = "<group>"; };
+		1668336E23F0F29A00A901FA /* BusRoutesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusRoutesController.swift; sourceTree = "<group>"; };
+		1668337223F5C97300A901FA /* CardTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardTableViewCell.swift; sourceTree = "<group>"; };
+		1668337423F5CB1800A901FA /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		16F5155324D836A700080D30 /* BusesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusesTableViewCell.swift; sourceTree = "<group>"; };
+		16F5155424D836A700080D30 /* BusesTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BusesTableViewCell.xib; sourceTree = "<group>"; };
+		16F980EF23F8E0EB0035B84C /* CardManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardManager.swift; sourceTree = "<group>"; };
+		16F980F123FA2D210035B84C /* AddCardController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCardController.swift; sourceTree = "<group>"; };
+		16F980F323FB0FF70035B84C /* CardDetailsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDetailsController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +89,7 @@
 		1668332823E4F94700A901FA = {
 			isa = PBXGroup;
 			children = (
+				166282DC27627F1900FBCABB /* README.md */,
 				1668333323E4F94700A901FA /* mdt-tracker */,
 				1668333223E4F94700A901FA /* Products */,
 			);
@@ -48,7 +98,7 @@
 		1668333223E4F94700A901FA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1668333123E4F94700A901FA /* mdt-tracker.app */,
+				1668333123E4F94700A901FA /* MDT Tracker.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,15 +106,71 @@
 		1668333323E4F94700A901FA /* mdt-tracker */ = {
 			isa = PBXGroup;
 			children = (
+				1668334F23E5D21600A901FA /* Elements */,
+				1668334E23E5D20F00A901FA /* Controller */,
+				1668334D23E5D20800A901FA /* View */,
+				1668334C23E5D20000A901FA /* Model */,
 				1668333423E4F94700A901FA /* AppDelegate.swift */,
 				1668333623E4F94700A901FA /* SceneDelegate.swift */,
-				1668333823E4F94700A901FA /* ViewController.swift */,
-				1668333A23E4F94700A901FA /* Main.storyboard */,
 				1668333D23E4F94800A901FA /* Assets.xcassets */,
 				1668333F23E4F94800A901FA /* LaunchScreen.storyboard */,
 				1668334223E4F94800A901FA /* Info.plist */,
 			);
 			path = "mdt-tracker";
+			sourceTree = "<group>";
+		};
+		1668334C23E5D20000A901FA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1668335223E5EDB100A901FA /* Bus.swift */,
+				1668335823E796E600A901FA /* BusesManager.swift */,
+				1668335C23E9240300A901FA /* BusStopsManager.swift */,
+				1668335E23E9261100A901FA /* BusStop.swift */,
+				1668336223EC6BE500A901FA /* BusDetailsManager.swift */,
+				1668336423ECA71C00A901FA /* Coords.swift */,
+				1668336823EF3CAE00A901FA /* Favorite.swift */,
+				1668336A23EF450500A901FA /* FavoritesManager.swift */,
+				1668336C23F0EDC400A901FA /* BusMap.swift */,
+				1668337423F5CB1800A901FA /* Card.swift */,
+				16F980EF23F8E0EB0035B84C /* CardManager.swift */,
+				162D3DE024101F1400BEFB55 /* ScheduleManager.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1668334D23E5D20800A901FA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1668333A23E4F94700A901FA /* Main.storyboard */,
+				16F5155424D836A700080D30 /* BusesTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1668334E23E5D20F00A901FA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1668333823E4F94700A901FA /* FavoritesController.swift */,
+				1668334823E5C61700A901FA /* BusesController.swift */,
+				1668334A23E5C63E00A901FA /* CardController.swift */,
+				1668335A23E8DFEE00A901FA /* SelectStopController.swift */,
+				1668336023E9B05300A901FA /* BusDetailsController.swift */,
+				1668336E23F0F29A00A901FA /* BusRoutesController.swift */,
+				16F980F123FA2D210035B84C /* AddCardController.swift */,
+				16F980F323FB0FF70035B84C /* CardDetailsController.swift */,
+				162D3DDE240DE15500BEFB55 /* ScheduleController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1668334F23E5D21600A901FA /* Elements */ = {
+			isa = PBXGroup;
+			children = (
+				16F5155324D836A700080D30 /* BusesTableViewCell.swift */,
+				1668336623ECE39500A901FA /* BusDetailsTableViewCell.swift */,
+				1668337223F5C97300A901FA /* CardTableViewCell.swift */,
+			);
+			path = Elements;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,7 +190,7 @@
 			);
 			name = "mdt-tracker";
 			productName = "mdt-tracker";
-			productReference = 1668333123E4F94700A901FA /* mdt-tracker.app */;
+			productReference = 1668333123E4F94700A901FA /* MDT Tracker.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -125,6 +231,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16F5155624D836A800080D30 /* BusesTableViewCell.xib in Resources */,
 				1668334123E4F94800A901FA /* LaunchScreen.storyboard in Resources */,
 				1668333E23E4F94800A901FA /* Assets.xcassets in Resources */,
 				1668333C23E4F94700A901FA /* Main.storyboard in Resources */,
@@ -138,8 +245,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1668333923E4F94700A901FA /* ViewController.swift in Sources */,
+				1668335D23E9240300A901FA /* BusStopsManager.swift in Sources */,
+				16F980F223FA2D210035B84C /* AddCardController.swift in Sources */,
+				1668336123E9B05300A901FA /* BusDetailsController.swift in Sources */,
+				1668335923E796E600A901FA /* BusesManager.swift in Sources */,
+				1668336D23F0EDC400A901FA /* BusMap.swift in Sources */,
+				16F980F423FB0FF70035B84C /* CardDetailsController.swift in Sources */,
+				1668335323E5EDB100A901FA /* Bus.swift in Sources */,
+				1668336B23EF450500A901FA /* FavoritesManager.swift in Sources */,
+				1668337523F5CB1800A901FA /* Card.swift in Sources */,
+				1668336523ECA71C00A901FA /* Coords.swift in Sources */,
+				1668336723ECE39500A901FA /* BusDetailsTableViewCell.swift in Sources */,
+				162D3DE124101F1400BEFB55 /* ScheduleManager.swift in Sources */,
+				16F5155524D836A800080D30 /* BusesTableViewCell.swift in Sources */,
+				1668334B23E5C63E00A901FA /* CardController.swift in Sources */,
+				1668333923E4F94700A901FA /* FavoritesController.swift in Sources */,
 				1668333523E4F94700A901FA /* AppDelegate.swift in Sources */,
+				1668334923E5C61700A901FA /* BusesController.swift in Sources */,
+				1668336323EC6BE500A901FA /* BusDetailsManager.swift in Sources */,
+				1668335B23E8DFEE00A901FA /* SelectStopController.swift in Sources */,
+				1668337323F5C97300A901FA /* CardTableViewCell.swift in Sources */,
+				1668336923EF3CAE00A901FA /* Favorite.swift in Sources */,
+				1668336F23F0F29A00A901FA /* BusRoutesController.swift in Sources */,
+				1668335F23E9261100A901FA /* BusStop.swift in Sources */,
+				16F980F023F8E0EB0035B84C /* CardManager.swift in Sources */,
+				162D3DDF240DE15500BEFB55 /* ScheduleController.swift in Sources */,
 				1668333723E4F94700A901FA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -292,7 +422,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "bkapps.mdt-tracker";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "MDT Tracker";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -310,7 +440,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "bkapps.mdt-tracker";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "MDT Tracker";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
