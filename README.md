@@ -2,11 +2,13 @@
 Built in Swift, this app features a favorites page, real-time bus location and ETA, useful route information, and EASY Card integration.
 
 ## Screenshots:
-![](screenshot_1.png)
-![](screenshot_2.png)
-![](screenshot_3.png)
-![](screenshot_4.png)
-![](screenshot_5.png)
-![](screenshot_6.png)
-![](screenshot_7.png)
+<p align="left">
+  <img src="screenshot_1.png" width="30%">&nbsp;
+  <img src="screenshot_2.png" width="30%">&nbsp;
+  <img src="screenshot_3.png" width="30%">&nbsp;
+  <img src="screenshot_4.png" width="30%">&nbsp;
+  <img src="screenshot_5.png" width="30%">&nbsp;
+  <img src="screenshot_6.png" width="30%">&nbsp;
+  <img src="screenshot_7.png" width="30%">&nbsp;
+</p>
 
